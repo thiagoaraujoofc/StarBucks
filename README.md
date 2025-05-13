@@ -7,7 +7,7 @@ Starbucks é uma landing page web desenvolvida com HTML, CSS e JavaScript. O obj
 ## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura básica da página.
-- **CSS3**: Estilização e layout responsivo.
+- **CSS3**: Estilização do layout.
 - **JavaScript**: Interatividade e dinamicidade da página.
 
 ## Funcionalidades
