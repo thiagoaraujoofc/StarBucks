@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="en">
+    <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
     </head>
     <body>
         <section>
+            <div class="circle"></div>
             <header>
                 <a href="#"><img class="logo" src="/images/logo.jpg" alt="Logo"></a>
                 <ul>
@@ -27,9 +28,20 @@
                     <a href="#">Learn More</a>
                  </div>
                 <div class="imgBox">
-                    <img class="starbucks" src="/images/img1.png" alt="Starbucks">
+                    <img class="starbucks" src="/images/img1.png" alt="Copo Starbucks">
                 </div>
             </div>
+            <ul class="thumb">
+                <li><img src="/images/thumb1.jpg" onclick="imgSlider('/images/img1.png'); changeCircleColor('#017143')" alt="Thumb1"></li>
+                <li><img src="/images/thumb2.jpg" onclick="imgSlider('/images/img2.png'); changeCircleColor('#eb7495')" alt="Thumb2"></li>
+                <li><img src="/images/thumb3.jpg" onclick="imgSlider('/images/img3.png'); changeCircleColor('#d752b1')" alt="Thumb3"></li>
+            </ul>
+            <ul class="social-midia">
+                <li><a href="#"><img src="/images/facebook.jpg" alt="Logo Facebook"></a></li>
+                <li><a href="#"><img src="/images/twitter.jpg" alt="Logo Facebook"></a></li>
+                <li><a href="#"><img src="/images/instagram.jpg" alt="Logo Facebook"></a></li>
+            </ul>
         </section>
     </body>
+    <script src="/js/script.js"></script>
 </html>
